@@ -1,13 +1,24 @@
+{{!-- Setup the main.handlebars file so it's able to be used by Handlebars. --}}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-		<title>Eat the Burger!</title>
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="/assets/js/cats.js"></script>
+	<head>
+		<title>Eat-Da-Burger App</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="/assets/css/burger_style.css" type="text/css">
+
+		<!-- Bootstap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
 	</head>
 	<body>
+		<div class="jumbotron" style= "background-color:orange;">
+		<img src="/assets/img/burger.png"> 
+
 		{{{ body }}}
+		</div>
+
 	</body>
 </html>
